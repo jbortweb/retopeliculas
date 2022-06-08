@@ -1,0 +1,39 @@
+@import '../../colors.scss';
+
+.cabecera {
+    display: flex;
+    padding: 0.8em;
+    justify-content: space-around;
+    background-color: $solid;
+    color: $ligthplus;
+
+        img {
+            width: 10%;
+            height: 10%;
+        }
+}
+   
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: $solid;
+    color: $ligthplus;
+
+    li {
+        display: inline;
+        padding: 1em 4em;
+        list-style: none;
+        cursor: pointer;
+        background-color: $dark;
+        margin: 0.5em;
+        border-radius: 0.4em;
+        transition: all 0.5s;
+    }
+    li:hover {
+        background-color: $ligth;
+        color : $dark
+    }
+    a {
+        all : unset;
+    }
+}
