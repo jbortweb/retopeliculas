@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/retopeliculas/static/css/main.9ddef702.css",
+    "main.js": "/retopeliculas/static/js/main.cb5ba998.js",
+    "static/js/787.1431aede.chunk.js": "/retopeliculas/static/js/787.1431aede.chunk.js",
+    "static/media/logo.webp": "/retopeliculas/static/media/logo.7b1195d865510e7e0f58.webp",
+    "index.html": "/retopeliculas/index.html",
+    "main.9ddef702.css.map": "/retopeliculas/static/css/main.9ddef702.css.map",
+    "main.cb5ba998.js.map": "/retopeliculas/static/js/main.cb5ba998.js.map",
+    "787.1431aede.chunk.js.map": "/retopeliculas/static/js/787.1431aede.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ddef702.css",
+    "static/js/main.cb5ba998.js"
+  ]
+}
