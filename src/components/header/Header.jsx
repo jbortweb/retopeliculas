@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from '../../logo.webp';
 import "./Header.scss";
 
-const Header = (props) => {
+const Header = (props) => {  //NavLink le añade el parametro a la url
 
     return <header>
         <div className="cabecera">

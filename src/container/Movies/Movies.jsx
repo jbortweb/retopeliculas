@@ -7,7 +7,7 @@ import './Movies.scss';
 
 
 const Movies = props => {
-    const {movieType} = useParams();  //Traemos los parametros de la url
+    const {movieType} = useParams();  //Traemos los parametros de la urly los ponemos en la url de la API
     
     const [movies,setMovies] = useState([]);
 

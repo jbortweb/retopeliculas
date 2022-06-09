@@ -4,7 +4,7 @@ import Movies from './container/Movies/Movies.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home.jsx';
 
-function App() {
+function App() { //Con path le añadimos una variable en forma de parametro e imprimimos el componente del element
   return (
     <div className="App">
       <BrowserRouter>
