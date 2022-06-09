@@ -8,7 +8,8 @@ import './Movies.scss';
 
 const Movies = props => {
     const {movieType} = useParams();  //Traemos los parametros de la url
-    const [movies,setMovies] = useState([])
+    
+    const [movies,setMovies] = useState([]);
 
     useEffect(()=> {
         axios.get(`https://api.themoviedb.org/3/movie/${movieType}?api_key=9218b9bd6999a8af1b8972bb1b4b815a&language=es-ES`)

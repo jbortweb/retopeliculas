@@ -1,0 +1,26 @@
+@import '../../colors.scss';
+
+.caja {
+    margin: 0;
+    background-color: $solid;
+    padding: 1em;
+    padding-bottom: 100%;    
+
+
+    .home {
+        width: 50%;
+        display:block;
+        margin: 0 auto;
+        margin-top: 5em;       
+        color: $ligthplus;
+        text-align: center;
+
+        span {
+            display: block;
+            margin: 5em auto;
+            text-align:center;
+            line-height: 1.5em;
+            font-size: 1.2em;
+        }
+    }
+}
